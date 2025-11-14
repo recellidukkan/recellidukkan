@@ -14,6 +14,8 @@ const Page = () => {
         {name:'Reçelli Tiramisu' , price: '260 ₺' , contain:'(Süt reçeli ile servis edilir.)'},
         {name:'Reçelli Yoğurt' , price: '120 ₺' , contain:'(Üzerine reçel seçiniz.)'},
         {name:'Reçelli Milkshake' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
+       // {name:'Çıtır Kabak Tatlısı' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
+        
     ]
 
     return (

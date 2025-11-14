@@ -29,7 +29,7 @@ const page = () => {
     ]
   return (
     <div className="mt-16 px-4 md:px-8 lg:px-16">
-            <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">Soğuk İçecekler</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">Reçeller</h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {recel.map((recell, index) => (
