@@ -10,10 +10,11 @@ const Page = () => {
             'Vişne ve dondurma üzerine vişne reçeli',
             '(Eşleşmeler tavsiye olup diğer seçenekler için lütfen sorunuz)'
         ]},
-        {name:'Reçelli San Sebastian', price:'260 ₺' , contain:'(Vişne ya da süt reçeli ile önerilir.)'},
-        {name:'Reçelli Tiramisu' , price: '260 ₺' , contain:'(Süt reçeli ile servis edilir.)'},
+        {name:'Reçelli San Sebastian', price:'260 ₺' , contain:'(Vişne, süt reçeli ya da sade önerilir.)'},
+        {name:'Reçelli Tiramisu' , price: '260 ₺' , contain:'(Süt reçeli ile ya da sade servis edilir.)'},
         {name:'Reçelli Yoğurt' , price: '120 ₺' , contain:'(Üzerine reçel seçiniz.)'},
         {name:'Reçelli Milkshake' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
+        {name:'Reçelli Brownie' , price: '250 ₺' , contain:'(Vişne reçeliyle ya da sade servis edilir.)'},
        // {name:'Çıtır Kabak Tatlısı' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
         
     ]
