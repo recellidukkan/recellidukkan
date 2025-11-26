@@ -41,7 +41,9 @@ const Page = () => {
        {name:'Green Mango', contains:'Mango, Yeşil Çay, Elma, Ananas, Doğal Aroma', price:'130 ₺'},
        {name:'Purple Berry Tea', contains:'Mavi Sarmaşık Çiçeği, Lemongrass, Böğürtlen, Elma, Lime, Doğal Aroma', price:'130 ₺'},
        {name:'Marrakech Mint Tea', contains:'Yeşil Çay, Elma, Nane, Nane Yağı, Doğal Aroma', price:'130 ₺'},
-        {name:'Ihlamur', price:'130 ₺'}
+        {name:'Ihlamur', price:'130 ₺'},
+        {name:'Kış Çayı', price:'130 ₺'},
+        {name:'Karadeniz Yayla Çayı', price:'130 ₺'},
     ]
 
 
@@ -74,7 +76,7 @@ const Page = () => {
                 ))}
             </div>
             
-            <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800 mt-5">Bitki Çayları</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800 mt-5">Çaylar</h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {teas.map((drink, index) => (
