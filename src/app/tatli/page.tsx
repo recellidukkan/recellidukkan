@@ -14,7 +14,7 @@ const Page = () => {
         {name:'Reçelli Tiramisu' , price: '260 ₺' , contain:'(Süt reçeli ile ya da sade servis edilir.)'},
         {name:'Reçelli Yoğurt' , price: '120 ₺' , contain:'(Üzerine reçel seçiniz.)'},
         {name:'Reçelli Milkshake' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
-        {name:'Reçelli Brownie' , price: '250 ₺' , contain:'(Vişne reçeliyle ya da sade servis edilir.)'},
+        {name:'Reçelli Brownie' , price: '190 ₺' , contain:'(Vişne reçeli ya da süt reçeli ile (isteğe bağlı) servis edilir.)'},
        // {name:'Çıtır Kabak Tatlısı' , price: '230 ₺' , contain:'(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)'},
         
     ]
