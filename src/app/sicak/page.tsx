@@ -21,7 +21,7 @@ const Page = () => {
         {name:'Americano' , price:'160 ₺'},
         {name:'Filtre Kahve' , price:'160 ₺'},
         {name:'Türk Kahvesi' , price:'120 ₺'},
-        {name:'Double Türk Kahvesi' , price:'180 ₺'},
+        {name:'Double Türk Kahvesi' , price:'170 ₺'},
        
     
        
