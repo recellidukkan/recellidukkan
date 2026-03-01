@@ -16,7 +16,7 @@ const Options = () => {
         { name: 'Soğuk İçecekler', photo: '/soguk1.jpg', url: '/soguk' },
         { name: 'Reçelli Dükkan Special', photo: '/special.jpg', url: '/tatli' },
         { name: 'Sandviçler', photo: '/sandvic1.jpg', url: '/sandvic' },
-        { name: 'Reçeller', photo: '/recel.jpg', url: '/recel' },
+        // { name: 'Reçeller', photo: '/recel.jpg', url: '/recel' },
         // { name: 'Kahvaltılar', photo: '/kahvalti.jpg', url: '/kahvalti' },
     ]
 
