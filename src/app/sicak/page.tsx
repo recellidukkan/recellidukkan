@@ -5,7 +5,7 @@ const Page = () => {
     const hotDrinks = [
         {name:'Espresso' , price:'120 ₺'},
         {name:'Double Espresso' , price:'140 ₺'},
-        {name:'Cortado' , price:'160 ₺'},
+        {name:'Cortado' , price:'170 ₺'},
         {name:'Flat White' , price:'170 ₺'},
         {name:'Cappuccino' , price:'170 ₺'},
         {name:'Latte' , price:'170 ₺'},
@@ -21,7 +21,7 @@ const Page = () => {
         {name:'Americano' , price:'160 ₺'},
         {name:'Filtre Kahve' , price:'160 ₺'},
         {name:'Türk Kahvesi' , price:'120 ₺'},
-        {name:'Double Türk Kahvesi' , price:'150 ₺'},
+        {name:'Double Türk Kahvesi' , price:'180 ₺'},
        
     
        
@@ -34,8 +34,8 @@ const Page = () => {
     ]
 
     const teas= [
-       {name:'Çay' , price:'50 ₺'},
-        {name:'Fincan Çay' , price:'70 ₺'},
+       {name:'Çay' , price:'60 ₺'},
+        {name:'Fincan Çay' , price:'120 ₺'},
        
        {name:'Therapie' , contains:'Beyaz Çay, Çilek, Isparta Gülü, Yeşil Çay, Elma' , price:'130 ₺'},
        {name:'Green Mango', contains:'Mango, Yeşil Çay, Elma, Ananas, Doğal Aroma', price:'130 ₺'},
