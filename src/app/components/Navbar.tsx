@@ -10,7 +10,7 @@ const Navbar = () => {
         { name: 'Sıcak İçecekler', photo: '/sicak.jpg', url: '/sicak' },
         { name: 'Soğuk İçecekler', photo: '/soguk.jpg', url: '/soguk' },
         { name: 'Reçelli Dükkan Spesiyel', photo: '/tatli.jpg', url: '/tatli' },
-        { name: 'Sandviçler', photo: '/sandvic.jpg', url: '/sandvic' },
+        // { name: 'Sandviçler', photo: '/sandvic.jpg', url: '/sandvic' },
     ]
 
   return (
