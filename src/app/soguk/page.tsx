@@ -3,25 +3,26 @@ import React from 'react'
 
 const Page = () => {
     const coldDrinks = [
-        {name:'Ice Americano' , price: '170 ₺'},
+        {name:'Ice Americano' , price: '180 ₺'},
         {name:'Ice Filtre' , price: '170 ₺'},
-        {name:'Ice Mocha' , price: '210 ₺'},
+        {name:'Ice Mocha' , price: '220 ₺'},
         {name:'Ice White Mocha' , price: '210 ₺'},
-        {name:'Karamel Ice Latte' , price: '210 ₺'},
-        {name:'Vanilya Ice Latte' , price: '210 ₺'},
-        {name:'Fındık Ice Latte' , price: '210 ₺'},
-        {name:'Irish Ice Latte' , price: '210 ₺'},
+        {name:'Ice Latte' , price: '200 ₺'},
+        {name:'Karamel Ice Latte' , price: '220 ₺'},
+        {name:'Vanilya Ice Latte' , price: '220 ₺'},
+        {name:'Fındık Ice Latte' , price: '220 ₺'},
+        {name:'Irish Ice Latte' , price: '220 ₺'},
         {name:'Affogato' , price: '180 ₺'},
         {name:'Frappe' , price: '210 ₺'},
         {name:'Yeşil Elma Frozen' , price: '210 ₺'},
         {name:'Karpuz Frozen' , price: '210 ₺'},
         {name:'Çilek Frozen' , price: '210 ₺'},
         {name:'Mango Frozen' , price: '210 ₺'},
-        {name:'Ice Flat White' , price: '190 ₺'},
+        {name:'Ice Flat White' , price: '200 ₺'},
         {name:'Mikshake' , price: '210 ₺'},
         {name:'Soda' , price: '70 ₺'},
         {name:'Meyveli Soda' , price: '90 ₺'},
-        {name:'Su' , price: '30 ₺'},
+        {name:'Su' , price: '40 ₺'},
     ]
 
     return (

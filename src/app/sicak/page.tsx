@@ -5,10 +5,11 @@ const Page = () => {
     const hotDrinks = [
         {name:'Espresso' , price:'120 ₺'},
         {name:'Double Espresso' , price:'140 ₺'},
-        {name:'Cortado' , price:'170 ₺'},
-        {name:'Flat White' , price:'170 ₺'},
-        {name:'Cappuccino' , price:'170 ₺'},
-        {name:'Latte' , price:'170 ₺'},
+        {name:'Cortado' , price:'180 ₺'},
+        {name:'Flat White' , price:'180 ₺'},
+        {name:'Cappuccino' , price:'180 ₺'},
+        {name:'Latte' , price:'180 ₺'},
+        {name:'Aromalı Latte' , price:'200 ₺'},
         {name:'Karamel Latte' , price:'190 ₺'},
         {name:'Vanilyalı Latte' , price:'190 ₺'},
         {name:'Fındıklı Latte' , price:'190 ₺'},
@@ -16,21 +17,22 @@ const Page = () => {
         {name:'Irish Latte' , price:'190 ₺'},
         {name:'Balkabaklı Latte' , price:'190 ₺'},
         {name:'Chai Tea Latte' , price:'190 ₺'},
-        {name:'Mocha' , price:'190 ₺'},
-        {name:'White Mocha' , price:'190 ₺'},
-        {name:'Americano' , price:'160 ₺'},
+        {name:'Mocha' , price:'200 ₺'},
+        {name:'White Mocha' , price:'200 ₺'},
+        {name:'Americano' , price:'170 ₺'},
+        {name:'Long Black' , price:'170 ₺'},
         {name:'Filtre Kahve' , price:'160 ₺'},
-        {name:'Türk Kahvesi' , price:'120 ₺'},
-        {name:'Double Türk Kahvesi' , price:'170 ₺'},
+        {name:'Türk Kahvesi' , price:'140 ₺'},
+        {name:'Double Türk Kahvesi' , price:'180 ₺'},
        
     
        
     ]
     
     const otherHots= [
-         {name:'Sıcak Çikolata' , price:'170 ₺'},
+         {name:'Sıcak Çikolata' , price:'190 ₺'},
         {name:'Beyaz Çikolata' , price:'170 ₺'},
-        {name:'Salep' , price:'170 ₺'},
+        {name:'Salep' , price:'200 ₺'},
     ]
 
     const teas= [
