@@ -1,5 +1,15 @@
 import Navbar from "./components/Navbar";
 
+interface MenuItem {
+        name: string;
+        price: string;
+        desc?: string; // desc (açıklama) her üründe olmadığı için "?" ile opsiyonel yaptık
+    }
+
+    interface MenuSectionProps {
+        title: string;
+        items: MenuItem[];
+    }
 
 export default function Home() {
   const today = new Date().toLocaleDateString("tr-TR", {
@@ -98,7 +108,20 @@ const receller = [
     ];
 
     // Yardımcı Bileşen: Kategori Başlığı ve Liste Düzeni
-    const MenuSection = ({ title, items }) => (
+    // Tip tanımlamaları
+    interface MenuItem {
+        name: string;
+        price: string;
+        desc?: string; // desc (açıklama) her üründe olmadığı için "?" ile opsiyonel yaptık
+    }
+
+    interface MenuSectionProps {
+        title: string;
+        items: MenuItem[];
+    }
+
+    // Yardımcı Bileşen: Kategori Başlığı ve Liste Düzeni
+    const MenuSection = ({ title, items }: MenuSectionProps) => (
         <div className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 border-b-2 border-amber-500 pb-2 mb-6 inline-block">
                 {title}
