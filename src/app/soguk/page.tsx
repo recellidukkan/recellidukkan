@@ -20,7 +20,7 @@ const Page = () => {
         {name:'Mango Frozen' , price: '210 ₺'},
         {name:'Ice Flat White' , price: '200 ₺'},
         {name:'Mikshake' , price: '210 ₺'},
-        {name:'Soda' , price: '70 ₺'},
+       
         {name:'Meyveli Soda' , price: '90 ₺'},
         {name:'Su' , price: '40 ₺'},
     ]
