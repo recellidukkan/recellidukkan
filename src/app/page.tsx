@@ -84,9 +84,11 @@ const receller = [
         { name: 'Soğuk Türk Kahvesi', price: '250 ₺' },
         { name: 'Süt Reçelli Soğuk Türk Kahvesi', price: '260 ₺' },
         { name: 'Affogato', price: '230 ₺' },
+         { name: 'Reçelli Sorbe', price: '240 ₺', desc: '(Limon, çilek veya karadut)' }, // Yeni Eklend
+          { name: 'Reçelli Milkshake', price: '250 ₺', desc: '(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)' },
         { name: 'Frappe', price: '250 ₺' },
         { name: 'Frozen Çeşitleri', price: '250 ₺', desc: '(Yeşil Elma, Karpuz, Çilek, Mango)' },
-        { name: 'Milkshake', price: '250 ₺' },
+    
         { name: 'Meyveli Soda', price: '100 ₺' },
         { name: 'Su', price: '50 ₺' },
     ];
@@ -98,9 +100,9 @@ const receller = [
             price: '200 ₺', 
             desc: 'Sade dondurma üzerine çıtır kabak reçeli veya kuşburnu marmelatı, Çikolatalı dondurma üzerine süt reçeli vb. (Eşleşmeler tavsiye olup diğer seçenekler için lütfen sorunuz)' 
         },
-        { name: 'Reçelli Milkshake', price: '250 ₺', desc: '(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)' },
+       
         { name: 'Reçelli Brownie', price: '250 ₺', desc: '(Vişne reçeli ya da süt reçeli ile servis edilir.)' },
-        { name: 'Reçelli Sorbe', price: '240 ₺', desc: '(Limon, çilek veya karadut)' }, // Yeni Eklendi
+       
         { name: 'Reçelli Yoğurt', price: '120 ₺', desc: '(Üzerine reçel seçiniz.)' },
         { name: 'Reçelli Tiramisu', price: '300 ₺', desc: '(Süt reçeli ile ya da sade servis edilir.)' },
         { name: 'Çikolatalı San Sebastian', price: '320 ₺', desc: '(Vişne reçeli ya da süt reçeli ile servis edilir.)' },
