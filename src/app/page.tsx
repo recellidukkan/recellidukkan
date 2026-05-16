@@ -75,17 +75,16 @@ const receller = [
 
     // 4. Soğuk İçecekler (Yeni fiyatlar eklendi, Frozen/Milkshake vb. birleştirildi)
     const coldDrinks = [
+        { name: 'Soğuk Türk Kahvesi', price: '250 ₺' },
         { name: 'Ice Americano', price: '210 ₺' },
         { name: 'Ice Filtre', price: '220 ₺' },
         { name: 'Ice Mocha', price: '250 ₺' },
         { name: 'Ice Latte', price: '230 ₺' },
         { name: 'Aromalı Ice Latte', price: '250 ₺', desc: '(Karamel, Vanilya, Fındık, Irish)' },
         { name: 'Ice Flat White', price: '230 ₺' },
-        { name: 'Soğuk Türk Kahvesi', price: '250 ₺' },
-        { name: 'Süt Reçelli Soğuk Türk Kahvesi', price: '260 ₺' },
+      
         { name: 'Affogato', price: '230 ₺' },
-         { name: 'Reçelli Sorbe', price: '240 ₺', desc: '(Limon, çilek veya karadut)' }, // Yeni Eklend
-          { name: 'Reçelli Milkshake', price: '250 ₺', desc: '(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)' },
+       
         { name: 'Frappe', price: '250 ₺' },
         { name: 'Frozen Çeşitleri', price: '250 ₺', desc: '(Yeşil Elma, Karpuz, Çilek, Mango)' },
     
@@ -102,8 +101,11 @@ const receller = [
         },
        
         { name: 'Reçelli Brownie', price: '250 ₺', desc: '(Vişne reçeli ya da süt reçeli ile servis edilir.)' },
+          { name: 'Reçelli Sorbe', price: '240 ₺', desc: '(Limon, çilek veya karadut)' }, // Yeni Eklend
+          { name: 'Reçelli Milkshake', price: '250 ₺', desc: '(Çilek, vişne, karadut ve süt reçeli ile hazırlanır.)' },
+            { name: 'Süt Reçelli Soğuk Türk Kahvesi', price: '260 ₺' },
        
-        { name: 'Reçelli Yoğurt', price: '120 ₺', desc: '(Üzerine reçel seçiniz.)' },
+       
         { name: 'Reçelli Tiramisu', price: '300 ₺', desc: '(Süt reçeli ile ya da sade servis edilir.)' },
         { name: 'Çikolatalı San Sebastian', price: '320 ₺', desc: '(Vişne reçeli ya da süt reçeli ile servis edilir.)' },
         { name: 'Lotuslu San Sebastian', price: '340 ₺', desc: '(Süt reçeli ile önerilir.)' },
@@ -163,11 +165,11 @@ const receller = [
                 </div>
 
                 {/* Kategoriler */}
-                <MenuSection title="Kavanoz Reçeller" items={receller} />
-                <MenuSection title="Sıcak İçecekler" items={hotDrinks} />
+                <MenuSection title="Reçelli Spesiyel" items={desserts} />
                 <MenuSection title="Soğuk İçecekler" items={coldDrinks} />
+                <MenuSection title="Sıcak İçecekler" items={hotDrinks} />
                 <MenuSection title="Çaylar" items={teas} />
-                <MenuSection title="Tatlılar" items={desserts} />
+                <MenuSection title="Kavanoz Reçeller" items={receller} />
                 
             </div>
         </div>
