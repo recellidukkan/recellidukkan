@@ -62,7 +62,7 @@ const receller = [
 
     // 3. Çaylar (Klasik çaylar hariç bitki çayları 180 ₺ oldu)
     const teas = [
-        { name: 'Çay', price: '60 ₺' },
+    
         { name: 'Fincan Çay', price: '120 ₺' },
         { name: 'Therapie', desc: 'Beyaz Çay, Çilek, Isparta Gülü, Yeşil Çay, Elma', price: '180 ₺' },
         { name: 'Green Mango', desc: 'Mango, Yeşil Çay, Elma, Ananas, Doğal Aroma', price: '180 ₺' },
@@ -109,6 +109,8 @@ const receller = [
         { name: 'Reçelli Tiramisu', price: '300 ₺', desc: '(Süt reçeli ile ya da sade servis edilir.)' },
         { name: 'Çikolatalı San Sebastian', price: '320 ₺', desc: '(Vişne reçeli ya da süt reçeli ile servis edilir.)' },
         { name: 'Lotuslu San Sebastian', price: '340 ₺', desc: '(Süt reçeli ile önerilir.)' },
+        { name: 'White Coffee Bonbon', price: '250 ₺' },
+        { name: 'Dark Coffee Bonbon', price: '250 ₺' },
     ];
 
     // Yardımcı Bileşen: Kategori Başlığı ve Liste Düzeni
@@ -165,7 +167,7 @@ const receller = [
                 </div>
 
                 {/* Kategoriler */}
-                <MenuSection title="Reçelli Spesiyel" items={desserts} />
+                <MenuSection title="Reçelli Spesiyal" items={desserts} />
                 <MenuSection title="Soğuk İçecekler" items={coldDrinks} />
                 <MenuSection title="Sıcak İçecekler" items={hotDrinks} />
                 <MenuSection title="Çaylar" items={teas} />
