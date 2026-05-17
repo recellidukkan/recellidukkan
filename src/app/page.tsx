@@ -111,6 +111,7 @@ const receller = [
         { name: 'Lotuslu San Sebastian', price: '340 ₺', desc: '(Süt reçeli ile önerilir.)' },
         { name: 'White Coffee Bonbon', price: '250 ₺' },
         { name: 'Dark Coffee Bonbon', price: '250 ₺' },
+        //
     ];
 
     // Yardımcı Bileşen: Kategori Başlığı ve Liste Düzeni
